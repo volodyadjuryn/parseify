@@ -5,10 +5,10 @@ namespace App\Pagination;
 final class Pagination implements PaginationInterface
 {
     public function __construct(
-        private array $items,
-        private int $total,
-        private int $currentPage,
-        private int $limit,
+        private readonly array $items,
+        private readonly int $total,
+        private readonly int $currentPage,
+        private readonly int $limit,
     ) {
     }
 

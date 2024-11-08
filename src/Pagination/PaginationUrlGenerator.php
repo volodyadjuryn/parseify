@@ -8,8 +8,8 @@ use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 class PaginationUrlGenerator implements PaginationUrlGeneratorInterface
 {
     public function __construct(
-        private RequestStack $requestStack,
-        private UrlGeneratorInterface $urlGenerator,
+        private readonly RequestStack $requestStack,
+        private readonly UrlGeneratorInterface $urlGenerator,
     ) {
     }
 

@@ -7,8 +7,8 @@ use League\Fractal\Pagination\PaginatorInterface as FractalPaginationBaseInterfa
 final class FractalPaginationAdapter implements FractalPaginationBaseInterface
 {
     public function __construct(
-        private PaginationInterface $pagination,
-        private PaginationUrlGeneratorInterface $paginationUrlGenerator,
+        private readonly PaginationInterface $pagination,
+        private readonly PaginationUrlGeneratorInterface $paginationUrlGenerator,
     ) {
     }
 
