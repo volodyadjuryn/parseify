@@ -7,7 +7,8 @@ To get started, clone the repository and run docker:
 git clone https://github.com/volodyadjuryn/parseify.git
 docker-compose up -d
 ```
-
+#### Notes: 
+Composer install and database migrations will be run automatically
 ## Features
 * Product List Endpoint: Provides an API endpoint to retrieve a list of parsed products.
 * Import Command: Imports products from a specified URL via command line.
