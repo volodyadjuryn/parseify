@@ -2,11 +2,10 @@
 Parseify is a web scraping tool designed to extract product listings from e-commerce websites. Currently, it supports product categories on solmar.com.ua.
 
 ## Setup
-To get started, clone the repository and initialize the environment:
+To get started, clone the repository and run docker:
 ```shell
 git clone https://github.com/volodyadjuryn/parseify.git
-make up
-make init
+docker-compose up -d
 ```
 
 ## Features
